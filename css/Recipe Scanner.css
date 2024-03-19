@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family:  "Montserrat" !important;
+  }
+  /*-------------------------------start section navbar--------------------------------*/
+  .navbar {
+    background-color: #fff !important;
+
+  }
+  .nav-item {
+    padding-right:  30px;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  
+  .dropdown-menu {
+    background-color:transparent !important;
+    border: none!important;
+    outline: none !important ;
+  
+  }
+  .dropdown-menu  li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#D1E8FF;
+    color: #0B1957;
+    margin: 10px 0px;
+    border-radius: 3px;
+
+      
+    }
+  .dropdown-menu  li :hover{
+   background-color: #0B1957;
+    border-radius: 3px;
+    color: #fff;
+  }
+
+  .dropdown-menu  li a img  {
+    width: 30px;
+    height: 30px;
+
+  }
+/* start Home*/
+.Background {
+    background-image: url(../assets/colors.png);
+    width: 100%;
+    max-width: 100% !important;
+    height: 262px;
+    max-height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .Background {
+    background-image: url(../assets/colors.png);
+    width: 100%;
+    max-width: 100% !important;
+    height: 262px;
+    max-height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .titel {
+    display: flex;
+    justify-content: center;
+
+
+  }
+  .titel h1 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    padding-top: 100px;
+    font-size: 50px;
+    text-align: center;
+    
+  }
+
+  
+
+  .rash{
+    width: 110px;
+    margin: 20px;
+    padding-top: 45;
+  }
+
+  
+
+  .brain{
+    width: 110px;
+    margin: 20px;
+    padding-top: 45;
+  }
+
+
+  .try{
+    width: 400px;
+    height: 50px;
+    background-color: #0B1957;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+.textScan h6 {
+color: #0B1957;
+font-weight: 700;
+}
+.textScan p{
+    color: #27272a;
+    font-size: 22px;
+    }
+    
+    .drop-container {
+      position: relative;
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px dashed #555;
+      color: #444;
+      cursor: pointer;
+      transition: background .2s ease-in-out, border .2s ease-in-out;
+    }
+    
+    .drop-container:hover {
+      background: #eee;
+      border-color: #111;
+    }
+    
+    .drop-container:hover .drop-title {
+      color: #222;
+    }
+    
+    .drop-title {
+      color: #444;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      transition: color .2s ease-in-out;
+    }
+    
+
+
+ .land{
+  width: 100%;
+ }
+ .land img{
+  width: 100%;
+ }

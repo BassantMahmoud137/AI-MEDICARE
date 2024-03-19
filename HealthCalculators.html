@@ -1,0 +1,198 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/Disease.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-------------------style  project ------------------------------------------->
+
+    <title>Health Calculators</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="assets/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="auth-user"></ul>
+        </div>
+      </div>
+    </nav>
+
+    <!----------------------------------------------------------------------------------------->
+
+    <!----start section Home--------->
+    <section class="Home" id="Home">
+      <div class="Background">
+        <div class="color-background">
+          <div class="titel container">
+            <h1>Health Calculators</h1>
+            <img src="assets/healthcare (1).png" alt="health" class="health" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------start section service ---------------->
+    <section class="service" id="SERVICES">
+      <div class="container">
+        <div class="row my-3 justify-content-center">
+          <div
+            class="col-12 col-sm-6 specialty-topic1 my-5 p-3 wow fadeInLeftBig"
+            data-wow-duration="1.6s"
+          >
+            <a href="BMI.html" class="text-decoration-none">
+              <div class="specialty text-center align-center">
+                <div class="img-topic">
+                  <img class="des" src="assets/BMI.png" alt="icon" />
+                </div>
+                <div class="caption">
+                  <h4>BMI</h4>
+                  <p>Body mass index</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!------->
+          <div
+            id="off"
+            class="col-12 col-sm-6 specialty-topic1 my-5 p-3 wow fadeInLeftBig"
+            data-wow-duration="1.6s"
+          >
+            <a href="BMR.html" class="text-decoration-none">
+              <div class="specialty text-center align-center">
+                <div class="img-topic">
+                  <img class="-2" src="assets/normal.png" alt="icon" />
+                </div>
+                <div class="caption">
+                  <h4>BMR</h4>
+                  <p>Basal metabolic rate</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!------->
+          <div
+            class="col-12 col-sm-6 specialty-topic1 my-5 p-3 wow fadeInLeftBig"
+            data-wow-duration="1.6s"
+          >
+            <a href="WaterIntakee.html" class="text-decoration-none">
+              <div class="specialty text-center align-center">
+                <div class="img-topic">
+                  <img src="assets/water.png" alt="icon" />
+                </div>
+                <div class="caption">
+                  <h4>Water intake</h4>
+                  <p>Traditional</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!------->
+          <div
+            class="col-12 col-sm-6 specialty-topic1 my-5 p-3 wow fadeInLeftBig"
+            data-wow-duration="1.6s"
+          >
+            <a href="SymptomsChecker.html" class="text-decoration-none">
+              <div class="specialty text-center align-center">
+                <div class="img-topic">
+                  <img
+                    src="assets/WhatsApp Image 2024-02-27 at 23.44.58_9f301ccd.jpg"
+                    alt="icon"
+                  />
+                </div>
+                <div class="caption">
+                  <h4>Check Your Symptoms</h4>
+                  <p>Traditional</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------------Symptoms---------------------------------------------------------------------------->
+    <!--<section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <a href="SymptomsChecker.html" class="text-decoration-none"></a>
+        <div class="col-md-8 col-lg-6 text-center">
+         
+          <div class="call-card" onclick="fetchSymptoms()" style="background-color: #0b1957; border-radius: 15px; cursor: pointer; transition: transform 0.3s, box-shadow 0.3s;">
+            <h4 style="color: #f8f9fa; font-size: 30px; font-weight: bold;">Check your symoptoms now</h4>
+           
+             
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!------------------------------------------calls---------------------------------------------------------------------------->
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="call-card" onclick="makeCall()">
+              <div>
+                <img src="/assets/emergency-call.svg" alt="emergency-call" />
+              </div>
+              <p>Emergency call</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="call-card" onclick="nearbyHospitals()">
+              <div>
+                <img src="/assets/nearby-hospital.svg" alt="nearby-hospital" />
+              </div>
+              <p>Nearby hospitals</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------footer---------------------------------------------------------------------------->
+
+    <!-- <footer>
+
+<div class="land">
+  <img src="assets/footer.png" alt="footerImage">
+  <h6 class="text-center"></h6>
+</div>
+
+  </footer> -->
+
+    <!------------------------------------------footer------------------------------------------------------------------------------>
+
+    <!-------------------scripts project ------------------------------------------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

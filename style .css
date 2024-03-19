@@ -1,0 +1,189 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family:  "Montserrat" !important;
+  }
+  /*-------------------------------start section navbar--------------------------------*/
+  .navbar {
+    background-color: #fff !important;
+
+  }
+  .nav-item {
+    padding-right:  30px;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  
+  .dropdown-menu {
+    background-color:transparent !important;
+    border: none!important;
+    outline: none !important ;
+  
+  }
+  .dropdown-menu  li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#D1E8FF;
+    color: #0B1957;
+    margin: 10px 0px;
+    border-radius: 3px;
+
+      
+    }
+  .dropdown-menu  li :hover{
+   background-color: #0B1957;
+    border-radius: 3px;
+    color: #fff;
+  }
+
+  .dropdown-menu  li a img  {
+    width: 30px;
+    height: 30px;
+
+  }
+/* start Home*/
+.Background {
+    background-image: url(assets/Section\ \(1\).png);
+    width: 100%;
+    max-width: 100% !important;
+    height: 780px;
+    max-height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .titel {
+    width: 50%;
+
+  }
+
+  .titel h1 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    padding-top: 100px;
+     padding-left:50px ;
+    font-size: 70px;
+    line-height:80px ;
+    /* width: 400px; */
+
+  }
+  
+
+  .titel p {
+padding-top: 40px;
+color: #fff;
+font-family: "Roboto", sans-serif;
+padding-left:50px ;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+width: 600;
+
+  }
+
+ #done{
+    background-color: #fff;
+    padding: 10px 30px;
+    color: #000;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family:  "Montserrat";
+
+    font-weight: 700;
+    
+  }
+  
+  /*start section service */
+.titel-SERVICES, .contactUs .contact-titel {
+    text-align: center !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 120px;
+    color:  #0B1957;
+  
+  }
+  .specialty-topic {
+    /* width:400px !important; */
+    /* height: 407.68px; */
+    /* margin:30px 10px ; */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  .specialty-topic > div{
+    padding: 20px 0px;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius:15px;
+    background-color: #9ECCFA;
+
+  }
+  .specialty-topic1 > div{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius:15px;
+    transition: 0.4s ease-in-out;
+    padding: 20px 0px;
+    background-color:  #0B1957;
+
+  }
+  .specialty-topic > div:hover {
+    transform: translatey(-10px);
+  }
+
+
+  .specialty-topic1 {
+    /* width:400px !important; */
+    /* height: 407.68px; */
+
+    /* margin:30px 10px ; */
+    /* background-color: #0B1957; */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #fFf !important;
+    cursor: pointer;
+  }
+  .specialty-topic1 > div:hover {
+    transform: translatey(-10px);
+  }
+
+
+  .btn-topic1{
+    color: #fff !important;
+  }
+
+
+
+
+  .specialty-topic13{
+    width:300px !important;
+    height: 350px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius:15px;
+    margin:30px 10px ;
+    transition: 0.4s ease-in-out;
+    background-color: #9ECCFA;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #fFf !important;
+  }
+  .specialty-topic13:hover {
+    transform: translatey(-10px);
+    background-color: #0B1957;
+
+  }
+

@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat" !important;
+}
+/*-------------------------------start section navbar--------------------------------*/
+.navbar {
+  background-color: #fff !important;
+}
+.nav-item {
+  padding-right: 30px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.dropdown-menu {
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important ;
+}
+.dropdown-menu li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d1e8ff;
+  color: #0b1957;
+  margin: 10px 0px;
+  border-radius: 3px;
+}
+.dropdown-menu li :hover {
+  background-color: #0b1957;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.dropdown-menu li a img {
+  width: 200px;
+  height: 300px;
+}
+/* start Home*/
+.Background {
+  background-image: url(../assets/colors.png);
+  width: 100%;
+  max-width: 100% !important;
+  height: 262px;
+  max-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.titel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titel h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  padding-top: 100px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.titel p {
+  padding-top: 40px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  padding-left: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  width: 600;
+}
+
+#done {
+  background-color: #fff;
+  padding: 10px 30px;
+  color: #000;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: "Montserrat";
+
+  font-weight: 700;
+}
+.robot {
+  width: 100px;
+  margin: 30px;
+  padding-top: 25;
+}
+ 
+
+
+.health{
+  width: 110px;
+  margin: 20px;
+  padding-top: 45;
+}
+.icon{
+  width: 400px;
+  padding: 10px 0px;
+}
+
+
+/*.heart{
+  width: 400px;
+  padding: 10px 0px;
+}
+
+/*start section service */
+.titel-SERVICES,
+.contactUs .contact-titel {
+  text-align: center !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 120px;
+  color: #0b1957;
+}
+.specialty-topic {
+  width: 400px !important;
+  height: 407.68px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 15px;
+  margin: 30px 10px;
+  transition: 0.4s ease-in-out;
+  background-color: #9eccfa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+.specialty-topic:hover {
+  transform: translatey(-10px);
+}
+
+.specialty-topic1 {
+  /* width:400px !important; */
+  
+
+  /* margin:30px 10px ; */
+  transition: 0.4s ease-in-out;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  color: #fff !important;
+  
+  padding: 0px 0px !important;
+  cursor: pointer;
+}
+.specialty-topic1 > a {
+  height: 407.68px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.specialty-topic1:hover {
+  transform: translatey(-10px);
+}
+
+.img-topic img {
+  width: 400px;
+  height: 250px;
+  padding-top: 0px !important;
+  margin: 0;
+}
+
+.btn-topic1 {
+  color: #fff !important;
+}
+
+.caption h4 {
+  color: #0b1957;
+  margin: 10px 0px;
+  font-weight: 700;
+}
+.caption p {
+  color: #292a2b;
+  margin: 5px 0px
+  
+}
+
+.des {
+  width: 400px;
+  padding: 10px 0px;
+}
+
+.call-card {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  border-radius: 11px;
+  filter: drop-shadow(2px 4px 5px rgba(0, 0, 0, 0.2));
+  cursor: pointer;
+}
+
+.call-card p {
+  color: #0b1957;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.call-card div {
+  overflow: hidden;
+  width: 30px;
+}
+.call-card div img {
+  width: 100%;
+  object-fit: contain;
+}
+
+
+/* Add this CSS to your stylesheet */
+
+/* Section styling */
+.py-5 {
+  background-color: #f0f0f0; /* Add a subtle background color */
+}
+
+/* Card styling */
+.call-card {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.call-card:hover {
+  transform: scale(1.05); /* Add a slight scale effect on hover for interaction */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Enhance the box shadow on hover */
+}
+
+/* Heading styling */
+.call-card h4 {
+  color : #0b1957;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+
+
+
+
+
+.symptoms{
+  
+  background-color: #292a2b56;
+  height: 250px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.symptoms > div{
+  border-bottom: 1px solid #eee;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.symptoms::-webkit-scrollbar{
+  display: none;
+}

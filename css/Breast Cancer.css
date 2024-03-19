@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family:  "Montserrat" !important;
+  }
+  /*-------------------------------start section navbar--------------------------------*/
+  .navbar {
+    background-color: #fff !important;
+
+  }
+  .nav-item {
+    padding-right:  30px;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  
+  .dropdown-menu {
+    background-color:transparent !important;
+    border: none!important;
+    outline: none !important ;
+  
+  }
+  .dropdown-menu  li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#D1E8FF;
+    color: #0B1957;
+    margin: 10px 0px;
+    border-radius: 3px;
+
+      
+    }
+  .dropdown-menu  li :hover{
+   background-color: #0B1957;
+    border-radius: 3px;
+    color: #fff;
+  }
+
+  .dropdown-menu  li a img  {
+    width: 30px;
+    height: 30px;
+
+  }
+/* start Home*/
+.Background {
+    background-image: url(../assets/colors.png);
+    width: 100%;
+    max-width: 100% !important;
+    height: 262px;
+    max-height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .Background {
+    background-image: url(../assets/colors.png);
+    width: 100%;
+    max-width: 100% !important;
+    height: 262px;
+    max-height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .titel {
+    display: flex;
+    justify-content: center;
+  }
+  .pink{
+    width: 100px;
+  margin: 30px;
+  padding-top: 30;
+  }
+
+  .titel h1 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    padding-top: 100px;
+    font-size: 50px;
+    text-align: center;
+
+  }
+
+  .heading{
+    padding: 30px 0px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .heading2{
+    padding-top: 109px !important;
+  }
+
+  label{
+    padding: 10px;
+  }
+  input{
+    width:350px;
+    height: 60px;
+    border-radius: 10px;
+    border:1px  solid #9ECCFA !important;
+    margin: 20px 0px !important;
+
+  }
+  .try{
+    width: 400px !important;
+    height: 55px !important;
+    background-color: #0B1957;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: auto;
+  }
+  .alert{
+    width: 400px !important;
+    height: 90px !important;
+    margin: auto;
+    display: block;
+  }
+/* footer  */
+  /*.land{
+    width: 100%;
+   }
+   .land img{
+    width: 100%;
+    margin-bottom: 0px;
+   }
