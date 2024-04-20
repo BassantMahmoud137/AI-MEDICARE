@@ -61,15 +61,18 @@
         <h6>How to Use ?</h6>
         <p>click on the button above and point your phone in MIR </p>
         <button class=" my-3 try ">Try it</button>
-        <div class="py-3">
+        <div class="alert alert-primary text-center d-none" id="result-section">
+         </div>
+        <div class="py-5">
           <label for="images" class="drop-container" id="dropcontainer">
             <span class="drop-title">Drop files here</span>
-            or
-            <input type="file" id="images" accept="image/*" required>
+            <form id="imageForm">
+              <input type="file" id="imageInput" accept="image/*" />
+              <button class="my-3 try" type="submit">Check the Predection</button>
+            </form>
           </label>
   
         </div>
-        
        </div>
       </div>
     </div>
@@ -91,6 +94,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-    <script src="index.js"></script>
+    <script src="js/RecipeScanner.js"></script>
   </body>
 </html>
