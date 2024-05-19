@@ -11,7 +11,7 @@ document
     const formData = new FormData();
     formData.append('image', file);
 
-    fetch('https://3256-34-148-227-120.ngrok-free.app/', {
+    fetch('https://ed0a-34-80-128-47.ngrok-free.app/', {
       method: 'POST',
       body: formData,
     })
