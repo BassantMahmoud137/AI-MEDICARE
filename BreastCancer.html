@@ -54,48 +54,139 @@
   <section>
 
     <div class="container ">
-      <div class="row">
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-          <p class="heading">Fill the below form to detect breast cancer :</p>
-        <div class="">
-       <label for="">Radius Mean: </label>
-       <input type="text" class="form-control"
-       placeholder="(eg. 14.02.11.13, etc)">
-       <label for="">Texture Mean: </label>
-       <input type="text" class="form-control"
-       placeholder="(eg. 20.35, 16.32, etc)">
-       <label for="">Perimeter Mean: </label>
-       <input type="text" class="form-control" 
-       placeholder="(eg. 91.34, 127.35, etc)">
-       <label for="">Area Mean: </label>
-       <input type="text" class="form-control"
-       placeholder="(eg. 500.23, 2010.21, etc)">
-       <label for="">Smoothness Mean: </label>
-       <input type="text" class="form-control"
-       placeholder="(eg. 0.08151, 0.12254, etc)">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="form-group mb-3">
+            <label for="radiusMean">Radius Mean:</label>
+            <input id="radiusMean" type="text" class="form-control" placeholder="e.g. 14.02, 11.13, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="textureMean">Texture Mean:</label>
+            <input id="textureMean" type="text" class="form-control" placeholder="e.g. 20.35, 16.32, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="perimeterMean">Perimeter Mean:</label>
+            <input id="perimeterMean" type="text" class="form-control" placeholder="e.g. 91.34, 127.35, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="areaMean">Area Mean:</label>
+            <input id="areaMean" type="text" class="form-control" placeholder="e.g. 500.23, 2010.21, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="smoothnessMean">Smoothness Mean:</label>
+            <input id="smoothnessMean" type="text" class="form-control" placeholder="e.g. 0.08151, 0.12254, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="compactnessMean">Compactness Mean:</label>
+            <input id="compactnessMean" type="text" class="form-control" placeholder="e.g. 0.11260, 0.11361, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="concavityMean">Concavity Mean:</label>
+            <input id="concavityMean" type="text" class="form-control" placeholder="e.g. 0.11140, 0.09961, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="concaveMean">Concave Points Mean:</label>
+            <input id="concaveMean" type="text" class="form-control" placeholder="e.g. 0.043040, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="symmetryMean">Symmetry Mean:</label>
+            <input id="symmetryMean" type="text" class="form-control" placeholder="e.g. 0.1537, 0.2251, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="fractalMean">Fractal Dimension Mean:</label>
+            <input id="fractalMean" type="text" class="form-control" placeholder="e.g. 0.06171, etc." />
+          </div>
+
+          <div class="form-group mb-3">
+            <label for="radiusWorst">Radius Worst:</label>
+            <input id="radiusWorst" type="text" class="form-control" placeholder="e.g. 14.02, 11.13, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="textureWorst">Texture Worst:</label>
+            <input id="textureWorst" type="text" class="form-control" placeholder="e.g. 20.35, 16.32, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="perimeterWorst">Perimeter Worst:</label>
+            <input id="perimeterWorst" type="text" class="form-control" placeholder="e.g. 91.34, 127.35, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="areaWorst">Area Worst:</label>
+            <input id="areaWorst" type="text" class="form-control" placeholder="e.g. 500.23, 2010.21, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="smoothnessWorst">Smoothness Worst:</label>
+            <input id="smoothnessWorst" type="text" class="form-control" placeholder="e.g. 0.08151, 0.12254, etc." />
           </div>
         </div>
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-          <div class="heading2">
-            <label for="">Compactness Mean: </label>
-            <input type="text" class="form-control"
-            placeholder="eg. 0.11260, 0.11361, etc">
-            <label for="">Concavity Mean: </label>
-            <input type="text" class="form-control"
-            placeholder="(eg. 0.111400, 0.09961, etc)">
-            <label for="">Concave Points Mean: </label>
-            <input type="text" class="form-control"
-            placeholder="(eg. 0.043040, etc)">
-            <label for="">Symmetry Mean: </label>
-            <input type="text" class="form-control"
-            placeholder="(eg. 0.1537, 0.2251, etc)">
-            <label for="">Fractal Dimension Mean: </label>
-            <input type="text" class="form-control"
-            placeholder="(eg. 0.06171, etc)">
-               </div>
-             </div>
-          <button class="my-3  try ">PREDICT </button>
+
+
+        <div class="col-md-6">
+          <div class="form-group mb-3">
+            <label for="radiusSe">Radius Se:</label>
+            <input id="radiusSe" type="text" class="form-control" placeholder="e.g. 14.02, 11.13, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="textureSe">Texture Se:</label>
+            <input id="textureSe" type="text" class="form-control" placeholder="e.g. 20.35, 16.32, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="perimeterSe">Perimeter Se:</label>
+            <input id="perimeterSe" type="text" class="form-control" placeholder="e.g. 91.34, 127.35, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="areaSe">Area Se:</label>
+            <input id="areaSe" type="text" class="form-control" placeholder="e.g. 500.23, 2010.21, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="smoothnessSe">Smoothness Se:</label>
+            <input id="smoothnessSe" type="text" class="form-control" placeholder="e.g. 0.08151, 0.12254, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="compactnessSe">Compactness Se:</label>
+            <input id="compactnessSe" type="text" class="form-control" placeholder="e.g. 0.11260, 0.11361, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="concavitySe">Concavity Se:</label>
+            <input id="concavitySe" type="text" class="form-control" placeholder="e.g. 0.11140, 0.09961, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="concaveSe">Concave Points Se:</label>
+            <input id="concaveSe" type="text" class="form-control" placeholder="e.g. 0.043040, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="symmetrySe">Symmetry Se:</label>
+            <input id="symmetrySe" type="text" class="form-control" placeholder="e.g. 0.1537, 0.2251, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="fractalSe">Fractal Dimension Se:</label>
+            <input id="fractalSe" type="text" class="form-control" placeholder="e.g. 0.06171, etc." />
+          </div>
+
+          <div class="form-group mb-3">
+            <label for="compactnessWorst">Compactness Worst:</label>
+            <input id="compactnessWorst" type="text" class="form-control" placeholder="e.g. 0.11260, 0.11361, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="concavityWorst">Concavity Worst:</label>
+            <input id="concavityWorst" type="text" class="form-control" placeholder="e.g. 0.11140, 0.09961, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="concaveWorst">Concave Points Worst:</label>
+            <input id="concaveWorst" type="text" class="form-control" placeholder="e.g. 0.043040, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="symmetryWorst">Symmetry Worst:</label>
+            <input id="symmetryWorst" type="text" class="form-control" placeholder="e.g. 0.1537, 0.2251, etc." />
+          </div>
+          <div class="form-group mb-3">
+            <label for="fractalWorst">Fractal Dimension Worst:</label>
+            <input id="fractalWorst" type="text" class="form-control" placeholder="e.g. 0.06171, etc." />
+          </div>
+          
         </div>
+
+        <button class="btn btn-primary w-100 mb-4" id="calculate">Predict</button>
+      </div>
 
       </div>
     </div>
