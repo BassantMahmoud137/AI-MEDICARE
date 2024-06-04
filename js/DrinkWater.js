@@ -1,5 +1,6 @@
 
 // Charts
+const scrollHeight = document.body.scrollHeight;
 var options = {
   series: [44,20],
   chart: {

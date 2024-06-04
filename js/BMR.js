@@ -1,3 +1,4 @@
+const scrollHeight = document.body.scrollHeight;
 var options = {
   series: [75],
   chart: {
@@ -137,4 +138,5 @@ function displayResult(BMR, tdee) {
     <br/>
     <span class="py-3 mb-3"> ${tdee.value}: ${tdee.description} </span>
     `;
+    window.scrollTo(0, scrollHeight);
 }

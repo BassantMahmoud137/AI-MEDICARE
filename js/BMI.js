@@ -1,3 +1,4 @@
+const scrollHeight = document.body.scrollHeight;
 var options = {
   series: [75],
   chart: {
@@ -132,4 +133,5 @@ function displayResult(BMI, weightStatus) {
   <br/>
   <span>Weight Status: ${weightStatus}</span>
   `;
+  window.scrollTo(0, scrollHeight);
 }

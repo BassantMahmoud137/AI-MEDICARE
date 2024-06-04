@@ -1,6 +1,7 @@
 function getAuthToken() {
     return localStorage.getItem("authToken");
   }
+  const scrollHeight = document.body.scrollHeight;
 
 const radiusMean = document.querySelector("#radiusMean");
 const textureMean = document.querySelector("#textureMean");
@@ -121,5 +122,6 @@ calculateBTN.addEventListener("click", async function () {
     <br/>
     <span>Weight Status: ${weightStatus}</span>
     `;
+    window.scrollTo(0, scrollHeight);
   }
   

@@ -1,3 +1,4 @@
+const scrollHeight = document.body.scrollHeight;
 var options = {
   series: [75],
   chart: {
@@ -130,4 +131,5 @@ function displayResult(waterIntake, unit, waterIntakeDesc) {
       <br/>
       <span>Water Intake Description: ${waterIntakeDesc}</span>
     `;
+    window.scrollTo(0, scrollHeight);
 }
