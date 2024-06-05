@@ -43,9 +43,12 @@
                   type="password" 
                   class="form-control" 
                   >
-                  <button type="button" class="btn" onclick="togglePassword('password')">
-                    <img src="./assets/eye-open.svg" alt="Toggle Password" height="24">
-                  </button>
+                  <button 
+                  id="toggleBtn"
+                  class="btn btn-outline-secondary" 
+                  type="button" 
+                  onclick="togglePassword('password','toggleBtn')"
+                  ><img src="/assets/eye-open.svg" alt="" class="w-100"/></button>
                 </div>
               </div>
 
