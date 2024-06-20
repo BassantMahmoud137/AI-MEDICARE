@@ -1,5 +1,5 @@
 let resultSection = document.querySelector('#result-section');
-const scrollHeight = document.body.scrollHeight;
+
 document
   .getElementById('imageForm')
   .addEventListener('submit', function (event) {
@@ -41,5 +41,4 @@ function displayResult(data) {
   resultSection.innerHTML = `
     <span class="py-3 mb-3"> Predection: ${data.prediction}</span>
     `;
-    window.scrollTo(0, scrollHeight);
 }
