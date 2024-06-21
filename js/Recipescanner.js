@@ -11,7 +11,7 @@ document
     const formData = new FormData();
     formData.append('image', file);
 
-    fetch('https://arguably-pro-crappie.ngrok-free.app/', {
+    fetch('https://arguably-pro-crappie.ngrok-free.app', {
       method: 'POST',
       body: formData,
     })

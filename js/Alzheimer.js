@@ -11,7 +11,7 @@ document
     const formData = new FormData();
     formData.append('image', file);
 
-    fetch('https://gibbon-skilled-allegedly.ngrok-free.app/', {
+    fetch('https://gibbon-skilled-allegedly.ngrok-free.app', {
       method: 'POST',
       body: formData,
     })
